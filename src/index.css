@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 4px;
+}
+
+.pagination .page-num {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.pagination .page-num:hover {
+    background-color: green;
+    color: white;
+}
+
+.pagination .active {
+    background-color: blue;
+}
