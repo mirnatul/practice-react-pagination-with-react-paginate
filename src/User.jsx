@@ -42,7 +42,7 @@ const User = ({ users }) => {
                 breakLabel="..."
                 nextLabel="next >"
                 onPageChange={handlePageClick}
-                pageRangeDisplayed={8}
+                pageRangeDisplayed={5}
                 pageCount={pageCount}
                 previousLabel="< previous"
                 renderOnZeroPageCount={null}
